@@ -1,5 +1,5 @@
 # Purpose of files in this repo
-This is a small example of a program I've created to allow to create an Excel file, which would contain small table to compare conversion rates between currencies. All files "currency_compare_#####.py" perform the same action, but using different approach - liniar, download every combination of conversion one by one, while asyncio and threaded solutions tries to do this more efficiently using threading (so far, there is not so much difference between liniar and threading approach in therms of time - might have to rewrite program, as it might not work in a way I expec it to)
+This is a small example of a program I've created to allow to create an Excel file, which would contain small table to compare conversion rates between currencies. All files `"currency_compare_#####.py"` perform the same action, but using different approach - liniar, download every combination of conversion one by one, while asyncio and threaded solutions tries to do this more efficiently using threading (so far, there is not so much difference between liniar and threading approach in therms of time - might have to rewrite program, as it might not work in a way I expec it to)
 
 ## Currencies being converted
 - USD
